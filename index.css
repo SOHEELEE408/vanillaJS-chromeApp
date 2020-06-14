@@ -1,0 +1,58 @@
+body {
+  background-color: #6d7f91;
+  color: #f4f6f8;
+  margin: 20% 40%;
+  border: 1px solid #f4f6f8;
+}
+
+.main {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+input {
+  background: none;
+  border: none;
+  font-weight: 600;
+}
+
+.css-wheather {
+  font-size: 15px;
+  font-weight: 600;
+}
